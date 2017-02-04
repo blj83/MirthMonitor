@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= message
+  h2= error.status
+  p you went to the wrong place this area does not exist. Please return.
+  pre #{error.stack}
